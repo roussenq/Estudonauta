@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precedencias</title>
+    <style>
+        body {
+            font-size: 18pt;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        var a = 5 + 3
+        document.write(`O resultado da expressão "a = 5 + 3" é: ${a}<br/>`)
+        var b = a % 5
+        document.write(`O resultado da expressão "b = a % 5" é: ${b}<br/>`)
+        var c = 5 * b ** 2
+        document.write(`O resultado da expressão "c = 5 * b ** 2" é: ${c}<br/>`)
+        var d = 10 - a / 2
+        document.write(`O resultado da expressão "d = 10 - a / 2" é: ${d}<br/>`)
+        var e = 6 * 2 / 6
+        document.write(`O resultado da expressão "e = 6 * 2 / 6" é: ${e}<br/>`)
+        var f = b % e + 4 / e
+        document.write(`O resultado da expressão "f = b % e + 4 / e" é: ${f}<br/>`)
+
+        var numero = 8
+        numero+=2
+        document.write(`O resultado de numero é: ${numero}<br/>`) 
+        numero%=2
+        document.write(`O resultado de numero é: ${numero}<br/>`) 
+        var x = 1
+        x++ //incremento 
+        x-- //decremento
+        ++x //pré incremento
+        --x //pré decremento
+    </script>
+</body>
+
+</html>
